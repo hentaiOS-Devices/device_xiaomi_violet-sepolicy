@@ -1,0 +1,37 @@
+#
+# Copyright (C) 2020 Raphielscape LLC. and Haruka LLC.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+# Primary storage
+/dev/block/mmcblk0rpmb                                        u:object_r:rpmb_device:s0
+
+/dev/block/platform/soc/7c4000\.sdhci/by-name/apdp            u:object_r:dp_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/boot            u:object_r:boot_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/modem           u:object_r:modem_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/product         u:object_r:system_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/system          u:object_r:system_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/system_ext      u:object_r:system_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/vendor          u:object_r:system_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/userdata        u:object_r:userdata_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/ssd             u:object_r:ssd_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/devinfo         u:object_r:devinfo_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/metadata        u:object_r:metadata_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/persist         u:object_r:persist_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/modemst[12]     u:object_r:modem_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/fsc             u:object_r:modem_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/fsg             u:object_r:modem_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/frp             u:object_r:frp_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/super           u:object_r:super_block_device:s0
+/dev/block/platform/soc/7c4000\.sdhci/by-name/misc            u:object_r:misc_block_device:s0
