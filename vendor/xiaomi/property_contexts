@@ -21,3 +21,7 @@ persist.vendor.sys.fp.vendor   u:object_r:vendor_fp_prop:s0
 # Vendor FP-PROPS
 ro.boot.fpsensor               u:object_r:vendor_fp_prop:s0
 sys.fp.vendor                  u:object_r:vendor_fp_prop:s0
+
+# USB
+persist.vendor.usb.        u:object_r:vendor_usb_prop:s0
+ro.vendor.usb.             u:object_r:vendor_usb_prop:s0
