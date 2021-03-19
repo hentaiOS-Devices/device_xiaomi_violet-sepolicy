@@ -21,7 +21,7 @@
 /vendor/bin/hw/android\.hardware\.dumpstate@1\.1-service\.violet u:object_r:hal_dumpstate_impl_exec:s0
 
 # Light HAL
-/vendor/bin/hw/android\.hardware\.light@2\.0-service\.violet u:object_r:hal_light_default_exec:s0
+/vendor/bin/hw/android\.hardware\.lights-service\.violet     u:object_r:hal_light_default_exec:s0
 
 # USB script
 /vendor/bin/init\.qcom\.usb\.sh u:object_r:qti_init_shell_exec:s0
